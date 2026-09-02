@@ -6,7 +6,7 @@ LOG_FILE="/home/yusuffmiracc/codes/middleBashScripts/Entegre_sistem_izleme/syste
 send_telegram() {
   local mesaj="$1"
   curl -s -X POST \
-  "https://api.telegram.org/bot8888681593:AAEZlhSXg4PDMZBB6748_zo2VX-NRBWDZSY/sendMessage" \
+  "https://api.telegram.org/botID/sendMessage" \
   -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" \
   --data-urlencode "chat_id=1442893987" \
   --data-urlencode "text=$mesaj" \
