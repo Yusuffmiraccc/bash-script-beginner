@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="/home/yusuffmiracc/codes/middleBashScripts/otonom_ag_bekcisi/SERVİCE_MONITOR_LOGS.log"
+LOG_FILE="Dizin"
 
 log_write(){
     local message="$1"
